@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #d3dde6;
+}
+.space{
+    width: 75%;
+    position: relative;
+    margin-top: 2rem!important;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.15);
+    padding: 0rem;
+}
+.nav{
+    margin: 0 auto;
+}
+.space > .tabContainer > div{
+    height: 100%;
+    cursor: pointer;
+    padding: 2rem;
+}
+.tabContainer > .active{
+    background: #043353;
+    color: white!important;
+    box-shadow: 0 0 0.5rem 0.1rem #74c7ea;
+}
+.active .sign-icon{
+    color: white;
+}
+form{
+    width: 60%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+.tabContainer{
+    height: 100%;
+    width: 100%;
+}
+.btn-primary{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #043353;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 0;
+    margin: 1rem 1rem 2rem 0;
+    width: 30%;
+    transition: all .4s ease-in-out;
+}
+.btn-primary:hover{
+    border: solid 2px #043353;
+    background: none;
+    outline: none;
+    color: #043353;
+    transform: scale(1.2);
+}
+.form-control{
+    border: none;
+    outline: none;
+    background-color: none;
+    border-bottom: solid 1px #043353;
+    border-radius: 0!important;
+    padding: 0 0 1rem 2rem;
+}
+/* .form-control:hover{
+    border: solid 1px #043353;
+} */
+.fa{
+    color: #043353;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0;
+    position: absolute;
+    right: 19.5rem;
+}
+.form-cont{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+.form-control:focus{
+    outline: 0 none;
+    border-color: #043353;
+    box-shadow: none;
+}
+.form-remem{
+    margin: 2rem;
+}
+.clear{
+    
+}
+
+@media(max-width:758px){
+    form{
+        width: 100%;
+    }
+    .fa{
+        position: absolute;
+        right: 4.5rem;
+    }
+    .sign-icon{
+        font-size: 1.5rem;
+        right: 9rem;
+    }
+    .tbutton{
+        text-indent: 1rem;
+    }
+}
